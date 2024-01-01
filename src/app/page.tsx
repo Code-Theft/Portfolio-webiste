@@ -1,6 +1,14 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+/**
+ * © Code-Theft_ 2024. All rights reserved.
+ *
+ * This code is the property of [Your Name] and is protected by copyright law.
+ * Unauthorized use, reproduction, or distribution is strictly prohibited.
+ *
+ */
 
+import React from "react";
+import Image from "next/image";
+import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -15,7 +23,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +98,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
