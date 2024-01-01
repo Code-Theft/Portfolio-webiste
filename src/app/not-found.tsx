@@ -7,13 +7,7 @@
  */
 
 import React from "react";
-import Link from "@components/Link";
 
-export default function Home() {
-  return (
-    <>
-      <p>Home Page</p>
-      <Link href="new page">Hello</Link>
-    </>
-  );
+export default function ErrorPage() {
+  return <div>not-found</div>;
 }
